@@ -13,9 +13,4 @@ spring:
       max-lifetime: 1800000
       connection-timeout: 10000
       connection-test-query: SELECT 1
-  cloud:
-    consul:
-      port: 8599
-      host: 192.168.71.129
-      discovery:
-        prefer-ip-address: true
+
